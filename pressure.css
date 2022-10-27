@@ -1,0 +1,61 @@
+.flora * { color: inherit }
+.sol { background: salmon; color: #080808 }
+.luna { background: #080808; color: salmon }
+.jugo { background: darkorchid; color: seashell }
+::selection { background: indigo; color: yellow }
+
+.mundo {
+  font-family: system-ui, sans-serif;
+  font-size: calc(1em + 1vw + 1vh);
+  line-height: 1.5;
+}
+
+.cuerpo {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-wrap: anywhere;
+}
+
+.capo {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.muy {
+  font-style: inherit;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.spine {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.amor {
+  margin: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+
+.quote {
+  box-sizing: border-box;
+  padding: 1rem;
+  border-left: .25rem dashed;
+  display: block;
+  min-height: 100vh;
+}
+
+.loco {
+  transform: rotate(180deg);
+}
+
+.pad-0 { box-sizing: border-box; padding: 0 }
+.pad-1 { box-sizing: border-box; padding: 1rem }
+.pad-2 { box-sizing: border-box; padding: 2rem }
+
+.voz {
+  font-size: 0;
+}
